@@ -1,0 +1,32 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 构建产物 =====
+dist/
+release/
+target/
+*.tsbuildinfo
+
+# ===== 编辑器 / IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 本地密钥（切勿提交，详见 后端/src/main/resources/application-local.example.properties）=====
+application-local.properties
+
+# ===== AI 助手工作目录 =====
+.workbuddy/
+
+# ===== 第三方脚手架模板（与项目主体无关）=====
+测试前端/
+
+# ===== 后端里的前端副本（与 桌宠前端/ 重复，源码逐字节相同）=====
+# 保留本地文件，不进仓库；确认无用后可自行删除
+后端/frontend/
+
+# ===== Live2D 模型资产 =====
+# 模型授权明确「禁止二次配布、禁止在非 Bilibili 平台使用」，版权归米哈游，
+# 因此不随仓库分发。获取方式见 桌宠前端/public/README.md
+桌宠前端/public/live2d/
+桌宠前端/public/Thelema2Yuzuha0802/

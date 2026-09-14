@@ -1,0 +1,39 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# 本地密钥配置只保留在开发电脑，不提交到远程仓库
+# application.properties 只含 ${...} 占位符，可以提交；
+# 真实密钥放在 application-local.properties，永久忽略。
+src/main/resources/application-local.properties
+/.codex/checks/
