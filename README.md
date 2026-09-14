@@ -61,8 +61,10 @@ npm run dev:electron     # 开发模式（Vite + Electron）
 
 ### 3. Live2D 模型
 
-**仓库里不包含模型文件**，因为模型授权明确禁止二次配布。本地运行前请按
-[`桌宠前端/public/README.md`](桌宠前端/public/README.md) 的说明放置模型。
+仓库已包含**伊蕾娜（LSS）**模型，克隆后无需额外操作即可运行。
+
+> ⚠️ 本仓库为**私有仓库**。模型含角色版权（《魔女之旅》）且为同人创作，
+> 请勿公开分发或用于商业用途。详见 [`桌宠前端/public/README.md`](桌宠前端/public/README.md)。
 
 ## 说明
 
